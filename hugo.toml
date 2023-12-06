@@ -10,7 +10,7 @@ paginate = 10
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "Job's stories"
+  homeSubtitle = "Job and Education"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -22,26 +22,27 @@ paginate = 10
   #enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
-  description = "Job's stories"
-  keywords = "homepage, blog"
+  description = "Job and Education"
+  keywords = "blog,sild"
   images = [""]
 
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
-    series   = "series"
 
 [languages]
   [languages.en]
-    title = ""
-    keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
   [languages.en.params.logo]
     logoText = "Hi"
     logoHomeLink = "/"
 
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts"
+
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  url        = "/tags"
