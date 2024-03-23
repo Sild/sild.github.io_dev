@@ -6,3 +6,8 @@ tags = ['habr', 'blog']
 +++
 
 [Here](https://habr.com/en/articles/778900/) is a short guide on how you can build a page like this yourself.
+
+Few useful snippets:
+
+create new post: `hugo new post/my_new_post.md && vim /content/post/my_new_post.md`
+
